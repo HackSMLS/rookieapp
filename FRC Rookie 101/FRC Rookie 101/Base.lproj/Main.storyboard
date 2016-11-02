@@ -23,93 +23,29 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xrp-og-nqA">
-                                <rect key="frame" x="0.0" y="148" width="320" height="44"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xrp-og-nqA" id="RHQ-tw-v2s">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWN-f0-nC0">
-                                            <rect key="frame" x="8" y="5" width="83" height="30"/>
-                                            <state key="normal" title="Registration"/>
-                                            <connections>
-                                                <segue destination="Zcx-VL-at1" kind="modal" id="kav-19-xHZ"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="HcG-Eu-Oms">
-                                <rect key="frame" x="0.0" y="194" width="320" height="44"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HcG-Eu-Oms" id="L1Y-RN-q6G">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8B-pG-kTY">
-                                            <rect key="frame" x="8" y="7" width="33" height="30"/>
-                                            <state key="normal" title="Fees"/>
-                                            <connections>
-                                                <segue destination="e7i-gL-iyT" kind="modal" id="MfL-Pk-KSi"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="z4P-FG-I92">
-                                <rect key="frame" x="0.0" y="239" width="320" height="44"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z4P-FG-I92" id="qHX-3j-ZFo">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQ4-wZ-cBz">
-                                            <rect key="frame" x="8" y="5" width="128" height="30"/>
-                                            <state key="normal" title="Local Organization"/>
-                                            <connections>
-                                                <segue destination="fdc-ZU-Yum" kind="modal" id="35k-DL-xJe"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="B2C-Jx-nV2">
-                                <rect key="frame" x="0.0" y="283" width="320" height="44"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B2C-Jx-nV2" id="NxG-6z-W3S">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHF-va-soF">
-                                            <rect key="frame" x="8" y="5" width="65" height="30"/>
-                                            <state key="normal" title="Sponsors"/>
-                                            <connections>
-                                                <segue destination="hJ2-Yo-ulb" kind="modal" id="AAv-ZY-mR1"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="303" translatesAutoresizingMaskIntoConstraints="NO" id="vp7-VH-rNa">
-                                <rect key="frame" x="-5" y="109" width="320" height="303"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vp7-VH-rNa" id="g9o-K0-zF0">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="302"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oA1-vP-HZz">
-                                            <rect key="frame" x="8" y="8" width="107" height="30"/>
-                                            <state key="normal" title="What You Need"/>
-                                            <connections>
-                                                <segue destination="nI3-Kl-rEb" kind="modal" id="7Bd-7j-FTm"/>
-                                            </connections>
-                                        </button>
-                                        <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EQa-1p-ywg">
-                                            <rect key="frame" x="8" y="83" width="332" height="321"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </tableView>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3f-NN-xK1">
                                 <rect key="frame" x="260" y="518" width="34" height="30"/>
                                 <state key="normal" title="Back"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONI-Eo-VJ8">
+                                <rect key="frame" x="20" y="100" width="107" height="30"/>
+                                <state key="normal" title="What You Need"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNa-9b-JxQ">
+                                <rect key="frame" x="20" y="157" width="83" height="30"/>
+                                <state key="normal" title="Registration"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OwF-Ea-J6T">
+                                <rect key="frame" x="20" y="269" width="33" height="30"/>
+                                <state key="normal" title="Fees"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWh-6R-MUh">
+                                <rect key="frame" x="20" y="210" width="128" height="30"/>
+                                <state key="normal" title="Local Organization"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySu-hD-WpG">
+                                <rect key="frame" x="20" y="327" width="65" height="30"/>
+                                <state key="normal" title="Sponsors"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
